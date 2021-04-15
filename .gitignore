@@ -1,5 +1,26 @@
+
+# IntelliJ
+out/
+.idea/
+.idea
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+*.iml
+target
+build/reports
+
+### Gradle ###
+.idea/**/gradle.xml
+.idea/**/libraries
 .gradle
-/build/
+build/
+build/tmp/*
+build/classes
+.gradle/*
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -10,5 +31,12 @@ gradle-app.setting
 # Cache of project
 .gradletasknamecache
 
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
+### Gradle Patch ###
+**/build/
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
